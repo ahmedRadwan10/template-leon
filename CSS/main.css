@@ -9,9 +9,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600;800&display=swap');
 
 html {
-  font-size: 100%;
+  font-size: 100%; /*16px*/
   scroll-behavior: smooth;
-} /*16px*/
+}
 
 :root {
   /* colors */
@@ -59,6 +59,8 @@ html {
   --transition: 0.3s ease all;
   --max-width: 1120px;
   --fixed-width: 600px;
+  --section-paddtop:60px;
+  --section-paddbottom:60px;
 
   /* box shadow*/
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -229,7 +231,8 @@ ul li a:hover {
 /* start features */
 .features {
   background-color: var(--grey-200);
-  
+  padding-top: var(--section-paddtop);
+  padding-bottom: var(--section-paddbottom);
 }
 
 .features .container {
@@ -268,11 +271,13 @@ ul li a:hover {
 
 .services {
  width: 100%;
+ padding-top: var(--section-paddtop);
+ padding-bottom: var(--section-paddbottom);
 }
 
 .services .container {
   width: 90%;
-  margin: 2.5rem auto 8rem;
+  margin: 0rem auto 8rem;
   
 }
 
@@ -364,7 +369,8 @@ ul li a:hover {
 /* start portfolio */
 .portfolio {
   background-color: var(--grey-200);
-  padding: 2rem;
+  padding-top: var(--section-paddtop);
+  padding-bottom: var(--section-paddbottom);
 }
 
 .portfolio .heading {
@@ -418,6 +424,11 @@ ul li a:hover {
 /* end portfolio */
 
 /* start about */
+.about {
+  padding-top: var(--section-paddtop);
+  padding-bottom: var(--section-paddbottom);
+}
+
 .about .heading {
 text-align: center;
 }
@@ -538,6 +549,8 @@ text-align: center;
 .contact {
   background-color: var(--grey-200);
   text-align: center;
+  padding-top: var(--section-paddtop);
+  padding-bottom: var(--section-paddbottom);
 }
 
 .contact .heading {
