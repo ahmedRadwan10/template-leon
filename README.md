@@ -1,2 +1,1 @@
-
-Live website : https://ahmedradwan10.github.io/HTML_CSS_Temp01
+https://ahmedradwan10.github.io/HTML_CSS_Temp01
